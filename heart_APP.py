@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 
 # Load the trained RandomForest model and scaler
-with open('rheartdisease_model.pkl', 'rb') as file:
+with open('rheart_model.pkl', 'rb') as file:
     model = pickle.load(file)
 with open('rhd.pkl', 'rb') as scaler_file:
     scaler = pickle.load(scaler_file)
